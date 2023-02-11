@@ -49,7 +49,7 @@ First things first, go ahead and log into DC-1 as Jane Doe. We'll be logging int
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, go to Client-1, you should be signed in as a normal user. Go to the C: Drive in Client-1 and verify the changes you made. To access the shared files, type \\dc-1 in the search bar. You should be able to make documents in write_access, not enter "no_access", and only read files in "read_access".
 </p>
 <br /> 
 
