@@ -37,11 +37,11 @@ Welcome back to the final part of my Active Directory Tutorials. I'll be assumin
 </p>
 <p>
 First things first, go ahead and log into DC-1 as Jane Doe. We'll be logging into Client-1 as one of the Users we created earlier with the PowerShell script. Remember, the password for all of those accounts is "Password1". Once logged in as one of those users, go back to DC-1. Create 4 folders on the C: drive, name them "read_access", "write_access", "no_access", and "accounting". From here, right click each folder and share the folder with:
-<b>
--Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
--Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Write”
--Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write”
-  </b>
+<ol type="1">
+   <li>Folder: “read_access”, Group: “Domain Users”, Permission: “Read”</li>
+   <li>Folder: “write_access”,  Group: “Domain Users”, Permissions: “Read/Write”</li>
+   <li>Folder: “no_access”,  Group: “Domain Admins”, Permissions: “Read/Write”</li>
+</ol>
 </p>
 <br />
 
