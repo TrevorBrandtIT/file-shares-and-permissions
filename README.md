@@ -57,7 +57,7 @@ Next, go to Client-1, you should be signed in as a normal user. Go to the C: Dri
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Finally, go back into DC-1 as Jane. Navigate to Active Directory and right click on _EMPLOYEES, create a new Group and name it "_ACCOUNTANTS". Now go back to the "accounting" folder you created earlier. Now share that to _ACCOUNTANTS and give them read and write permissions. Go back to Client-1 and try to access the folder, it should fail. Now log out of Client-1, and back in DC-1 make the same user a member of _ACCOUNTANTS by clicking on _ACCOUNTANTS -> Members -> Add -> type username of selected user -> Apply -> OK. Now log back into CLient-1 as the user we just put into _ACCOUNTANTS and verify that you can access the folder.
 </p>
 <br />
 
