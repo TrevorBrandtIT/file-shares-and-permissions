@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/AeiqMDZ.png" alt="File Share Graphic"/>
 </p>
 
-<h1>Building Intuition with DNS</h1>
-This tutorial covers experimenting with and gaining a better understanding of DNS.<br />
+<h1>File Shares and Permissions</h1>
+This tutorial covers configuring file shares and permissions.<br />
 
 
 <h2>Environments and Technologies Used</h2>
